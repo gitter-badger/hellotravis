@@ -14,7 +14,7 @@ deploy:
   provider: releases
   api_key:
     secure: BW3ihnZbbZoDHr+fTmmHduXOGtsXqNW8NiEywp7ZX8eVt2YMg6D9x7Cl7I/9mlGGCdF9YMvF4yheVUwMpNZ07iY1jpfAIs0Q530bjdscmTrfKsxa+3dDFNRGS9vMn/m8t5t/PeM0nkYBjSXEKmMIIeX+jIqQVWAT5HU9s7OSodHKUOS8k2RAh9iMNR7wY1HxIIUn2N6Az72bSqU1Fw732p9aROtZjVIhN0zRkpLr5awHEoX6f/1CSuFAcqWviteBtWwpNRgHD7/qlrmcWqyvByhQUFK8+yAjMvLGJfR8p1oaApRWn6Zkr8+NQ4oWkuMAwtCgcZgXgK7EyQolMfv6AeBdj41SmXMu6hcFvzCtDLiawyLAdXwKiIRYJ5I4+U6crBBhWys9FodSnV7I8C9gU+hn5HZArCTqNqwXag/veJCiBL3ivBibeZicJCPw6JuFi/MEy9wz7HZ1pzI5QReH37uDfRGunt/XNWtZqSlIWYqKpbVM6OnWUUgjikz2IWWDs2vsq+bInUuv/c8pFa/S28eSko1s/DzMStwwn4aDEORI3o+pHwiI6aoVeqj/tEG3mHXt/aj31eVFA/nYcrhZX49J1agMJ2IcXPOHRLAXiKzB+gLBbMN5tjiBhw34mME67gyR1nq+BGRxZNQiyslr5N+4FSfWNcvC8fjsQD+X3KM=
-  file: app/build/outputs/apk/app-debug.apk
+  file: app/build/outputs/apk/app-release.apk
   skip_cleanup: true  
   on:
     repo: ooxxmix/hellotravis
